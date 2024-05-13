@@ -36,39 +36,39 @@ cite{
     font-style: italic;
 }
 
-nav ul li a:hover{
-    background-color: lightblue;
-}
-a:visited{
-    margin-top: 4rem;
-    border-top: 0.1rem solid slategrey;
-    font-size: 0.8rem;
+nav {
+    background-color: #003d88;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
 }
 
-nav{
-    background-color: #0096FF;
-}
-nav ul{
-    margin: 0;
-    padding: 0;
+nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li{
+nav ul li {
+    padding: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color:black;
+    color: white;
+    font-size: 1.2rem;
 }
+
+nav ul li a:hover {
+    background-color: lightblue;
+}
+
+.navimg {
+    height: 50px;
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -91,5 +91,5 @@ nav ul li a{
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
-    background: DarkRed;
+    background: FireBrick;
     }
