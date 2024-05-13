@@ -24,10 +24,29 @@ section, p{
     margin-right: 3rem;
 }
 
-footer{
-    margin-top: 4rem;
-    border-top: 0.1rem solid slategrey;
-    font-size: 0.8rem;
+footer {
+    background-color: #003d88;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+.footerimg {
+    height: 20px;
+    margin-right: 10px;
+}
+
+fp {
+    margin: 0;
 }
 
 cite{
